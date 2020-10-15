@@ -53,9 +53,9 @@ rl.question('O que você gostaria de fazer? \n 1. Registrar pokémon \n 2. Trein
             });
         };
         question();
-
-
-
+    } else if (option == 3 || option == 'Sair' || option == 'sair') {
+        console.log('\n Até mais, treinador(a)!')
+        rl.close();
     };
 });
 
