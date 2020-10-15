@@ -47,3 +47,38 @@ Ao escolher a segunda opção, o programa vai:
 ### Observação
 
 O nível máximo de um pokémon é 100. Ou seja, se um pokémon tem nível 99 e você quer adicionar mais 20 níveis de treinamento, então esse pokémon terá um nível 100, e os outros 19 níveis serão ignorados.
+
+---
+---
+---
+
+*This project is about building a Pokedex, a kind of database responsible for keeping information about pokémons. When running the program, we obtain a table containing the pokémons existing in the base and a menu with three options:*
+
+*1. Register*
+*2. Train*
+*3. Exit*
+
+*If the user does not enter one of these options, the program returns an error and asks the user to enter a valid option.*
+
+### Register Pokémon
+
+*When choosing the first option, the program will:*
+
+*- Receive the inputs of a pokemon found to be added via the terminal;*
+*- Ask the level of the pokemon and receive an integer;*
+*- Ask the name of the pokemon and receive a string;*
+*- Ask the type of pokemon and receive an array of strings;*
+*- Display the table containing the existing Pokemon and the newly added Pokemon on the console.*
+
+### Train Pokémon
+
+*When choosing the second option, the program will:*
+
+*- Ask for the Pokemon ID to be trained;*
+*- If not found, display an error message: "Pokemon not found", and ask again;*
+*- If found, ask how many levels will be added to the Pokemon;*
+*- Display on the console the table containing the existing Pokemon and the newly trained Pokemon, ranked from highest to the lowest level.*
+
+### Note
+
+*The maximum level of a Pokémon is 100. That is, if a Pokémon has a level of 99 and you want to add 20 more training levels, then that Pokémon will have a level of 100, and the other 19 levels will be ignored.*
