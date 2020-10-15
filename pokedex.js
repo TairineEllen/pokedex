@@ -46,7 +46,8 @@ rl.question('O que você gostaria de fazer? \n 1. Registrar pokémon \n 2. Trein
                     };
                     trainPokemon(idPokemon, levelsPokemon);
                     console.log(`\n Pokémon ${pokemonInTraining.name} subiu de nível \n`);
-                    console.table(db.pokemons);
+                    const highestLevel = db.pokemons.sort((a, b) => b.level - a.level);
+                    console.table(highestLevel);
                     rl.close();
                 });
             });
